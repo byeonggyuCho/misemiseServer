@@ -1,0 +1,1216 @@
+{
+        "11": {
+            "LOC_ENG_NM": "Seoul",
+            "AIR_NM": "seoul",
+            "AIR_KO_NM": "서울"
+        },
+        "26": {
+            "LOC_ENG_NM": "Busan",
+            "AIR_NM": "busan",
+            "AIR_KO_NM": "부산"
+        },
+        "27": {
+            "LOC_ENG_NM": "Daegu",
+            "AIR_NM": "daegu",
+            "AIR_KO_NM": "대구"
+        },
+        "28": {
+            "LOC_ENG_NM": "Incheon",
+            "AIR_NM": "incheon",
+            "AIR_KO_NM": "인천"
+        },
+        "29": {
+            "LOC_ENG_NM": "Gwangju",
+            "AIR_NM": "gwangju",
+            "AIR_KO_NM": "광주"
+        },
+        "30": {
+            "LOC_ENG_NM": "Daejeon",
+            "AIR_NM": "daejeon",
+            "AIR_KO_NM": "대전"
+        },
+        "31": {
+            "LOC_ENG_NM": "Ulsan",
+            "AIR_NM": "ulsan",
+            "AIR_KO_NM": "울산"
+        },
+        "36": {
+            "LOC_ENG_NM": "Sejong-si",
+            "AIR_NM": "sejong",
+            "AIR_KO_NM": "세종"
+        },
+        "41": {
+            "LOC_ENG_NM": "Gyeonggi-do",
+            "AIR_NM": "gyeonggi",
+            "AIR_KO_NM": "경기"
+        },
+        "42": {
+            "LOC_ENG_NM": "Gangwon-do",
+            "AIR_NM": "gangwon",
+            "AIR_KO_NM": "강원"
+        },
+        "43": {
+            "LOC_ENG_NM": "Chungcheongbuk-do",
+            "AIR_NM": "chungbuk",
+            "AIR_KO_NM": "충북"
+        },
+        "44": {
+            "LOC_ENG_NM": "Chungcheongnam-do",
+            "AIR_NM": "chungnam",
+            "AIR_KO_NM": "충남"
+        },
+        "45": {
+            "LOC_ENG_NM": "Jeollabuk-do",
+            "AIR_NM": "jeonbuk",
+            "AIR_KO_NM": "전북"
+        },
+        "46": {
+            "LOC_ENG_NM": "Jellanam-do",
+            "AIR_NM": "jeonnam",
+            "AIR_KO_NM": "전남"
+        },
+        "47": {
+            "LOC_ENG_NM": "Gyeongsangbuk-do",
+            "AIR_NM": "gyeongbuk",
+            "AIR_KO_NM": "경북"
+        },
+        "48": {
+            "LOC_ENG_NM": "Gyeongsangnam-do",
+            "AIR_NM": "gyeongnam",
+            "AIR_KO_NM": "경남"
+        },
+        "50": {
+            "LOC_ENG_NM": "Jeju-do",
+            "AIR_NM": "jeju",
+            "AIR_KO_NM": "제주"
+        },
+        "11110": {
+            "LOC_ENG_NM": "Jongno-gu",
+            "AIR_NM": "Jongno-gu",
+            "AIR_KO_NM": "종로구"
+        },
+        "11140": {
+            "LOC_ENG_NM": "Jung-gu",
+            "AIR_NM": "Jung-gu",
+            "AIR_KO_NM": "중구"
+        },
+        "11170": {
+            "LOC_ENG_NM": "Yongsan-gu",
+            "AIR_NM": "Yongsan-gu",
+            "AIR_KO_NM": "용산구"
+        },
+        "11200": {
+            "LOC_ENG_NM": "Seongdong-gu",
+            "AIR_NM": "Seongdong-gu",
+            "AIR_KO_NM": "성동구"
+        },
+        "11215": {
+            "LOC_ENG_NM": "Gwangjin-gu",
+            "AIR_NM": "Gwangjin-gu",
+            "AIR_KO_NM": "광진구"
+        },
+        "11230": {
+            "LOC_ENG_NM": "Dongdaemun-gu",
+            "AIR_NM": "Dongdaemun-gu",
+            "AIR_KO_NM": "동대문구"
+        },
+        "11260": {
+            "LOC_ENG_NM": "Jungnang-gu",
+            "AIR_NM": "Jungnang-gu",
+            "AIR_KO_NM": "중랑구"
+        },
+        "11290": {
+            "LOC_ENG_NM": "Seongbuk-gu",
+            "AIR_NM": "Seongbuk-gu",
+            "AIR_KO_NM": "성북구"
+        },
+        "11305": {
+            "LOC_ENG_NM": "Gangbuk-gu",
+            "AIR_NM": "Gangbuk-gu",
+            "AIR_KO_NM": "강북구"
+        },
+        "11320": {
+            "LOC_ENG_NM": "Dobong-gu",
+            "AIR_NM": "Dobong-gu",
+            "AIR_KO_NM": "도봉구"
+        },
+        "11350": {
+            "LOC_ENG_NM": "Nowon-gu",
+            "AIR_NM": "Nowon-gu",
+            "AIR_KO_NM": "노원구"
+        },
+        "11380": {
+            "LOC_ENG_NM": "Eunpyeong-gu",
+            "AIR_NM": "Eunpyeong-gu",
+            "AIR_KO_NM": "은평구"
+        },
+        "11410": {
+            "LOC_ENG_NM": "Seodaemun-gu",
+            "AIR_NM": "Seodaemun-gu",
+            "AIR_KO_NM": "서대문구"
+        },
+        "11440": {
+            "LOC_ENG_NM": "Mapo-gu",
+            "AIR_NM": "Mapo-gu",
+            "AIR_KO_NM": "마포구"
+        },
+        "11470": {
+            "LOC_ENG_NM": "Yangcheon-gu",
+            "AIR_NM": "Yangcheon-gu",
+            "AIR_KO_NM": "양천구"
+        },
+        "11500": {
+            "LOC_ENG_NM": "Gangseo-gu",
+            "AIR_NM": "Gangseo-gu",
+            "AIR_KO_NM": "강서구"
+        },
+        "11530": {
+            "LOC_ENG_NM": "Guro-gu",
+            "AIR_NM": "Guro-gu",
+            "AIR_KO_NM": "구로구"
+        },
+        "11545": {
+            "LOC_ENG_NM": "Geumcheon-gu",
+            "AIR_NM": "Geumcheon-gu",
+            "AIR_KO_NM": "금천구"
+        },
+        "11560": {
+            "LOC_ENG_NM": "Yeongdeungpo-gu",
+            "AIR_NM": "Yeongdeungpo-gu",
+            "AIR_KO_NM": "영등포구"
+        },
+        "11590": {
+            "LOC_ENG_NM": "Dongjak-gu",
+            "AIR_NM": "Dongjak-gu",
+            "AIR_KO_NM": "동작구"
+        },
+        "11620": {
+            "LOC_ENG_NM": "Gwanak-gu",
+            "AIR_NM": "Gwanak-gu",
+            "AIR_KO_NM": "관악구"
+        },
+        "11650": {
+            "LOC_ENG_NM": "Seocho-gu",
+            "AIR_NM": "Seocho-gu",
+            "AIR_KO_NM": "서초구"
+        },
+        "11680": {
+            "LOC_ENG_NM": "Gangnam-gu",
+            "AIR_NM": "Gangnam-gu",
+            "AIR_KO_NM": "강남구"
+        },
+        "11710": {
+            "LOC_ENG_NM": "Songpa-gu",
+            "AIR_NM": "Songpa-gu",
+            "AIR_KO_NM": "송파구"
+        },
+        "11740": {
+            "LOC_ENG_NM": "Gangdong-gu",
+            "AIR_NM": "Gangdong-gu",
+            "AIR_KO_NM": "강동구"
+        },
+        "26110": {
+            "LOC_ENG_NM": "Jung-gu",
+            "AIR_NM": "Jung-gu",
+            "AIR_KO_NM": "중구"
+        },
+        "26140": {
+            "LOC_ENG_NM": "Seo-gu",
+            "AIR_NM": "Seo-gu",
+            "AIR_KO_NM": "서구"
+        },
+        "26170": {
+            "LOC_ENG_NM": "Dong-gu",
+            "AIR_NM": "Dong-gu",
+            "AIR_KO_NM": "동구"
+        },
+        "26200": {
+            "LOC_ENG_NM": "Yeongdo-gu",
+            "AIR_NM": "Yeongdo-gu",
+            "AIR_KO_NM": "영도구"
+        },
+        "26230": {
+            "LOC_ENG_NM": "Busanjin-gu",
+            "AIR_NM": "Busanjin-gu",
+            "AIR_KO_NM": "부산진구"
+        },
+        "26260": {
+            "LOC_ENG_NM": "Dongnae-gu",
+            "AIR_NM": "Dongnae-gu",
+            "AIR_KO_NM": "동래구"
+        },
+        "26290": {
+            "LOC_ENG_NM": "Nam-gu",
+            "AIR_NM": "Nam-gu",
+            "AIR_KO_NM": "남구"
+        },
+        "26320": {
+            "LOC_ENG_NM": "Buk-gu",
+            "AIR_NM": "Buk-gu",
+            "AIR_KO_NM": "북구"
+        },
+        "26380": {
+            "LOC_ENG_NM": "Saha-gu",
+            "AIR_NM": "Saha-gu",
+            "AIR_KO_NM": "사하구"
+        },
+        "26410": {
+            "LOC_ENG_NM": "Geumjeong-gu",
+            "AIR_NM": "Geumjeong-gu",
+            "AIR_KO_NM": "금정구"
+        },
+        "26440": {
+            "LOC_ENG_NM": "Gangseo-gu",
+            "AIR_NM": "Gangseo-gu",
+            "AIR_KO_NM": "강서구"
+        },
+        "26470": {
+            "LOC_ENG_NM": "Yeonje-gu",
+            "AIR_NM": "Yeonje-gu",
+            "AIR_KO_NM": "연제구"
+        },
+        "26500": {
+            "LOC_ENG_NM": "Suyeong-gu",
+            "AIR_NM": "Suyeong-gu",
+            "AIR_KO_NM": "수영구"
+        },
+        "26530": {
+            "LOC_ENG_NM": "Sasang-gu",
+            "AIR_NM": "Sasang-gu",
+            "AIR_KO_NM": "사상구"
+        },
+        "26710": {
+            "LOC_ENG_NM": "Gijang-gun",
+            "AIR_NM": "Gijang-gun",
+            "AIR_KO_NM": "기장군"
+        },
+        "27110": {
+            "LOC_ENG_NM": "Jung-gu",
+            "AIR_NM": "Jung-gu",
+            "AIR_KO_NM": "중구"
+        },
+        "27140": {
+            "LOC_ENG_NM": "Dong-gu",
+            "AIR_NM": "Dong-gu",
+            "AIR_KO_NM": "동구"
+        },
+        "27170": {
+            "LOC_ENG_NM": "Seo-gu",
+            "AIR_NM": "Seo-gu",
+            "AIR_KO_NM": "서구"
+        },
+        "27200": {
+            "LOC_ENG_NM": "Nam-gu",
+            "AIR_NM": "Nam-gu",
+            "AIR_KO_NM": "남구"
+        },
+        "27230": {
+            "LOC_ENG_NM": "Buk-gu",
+            "AIR_NM": "Buk-gu",
+            "AIR_KO_NM": "북구"
+        },
+        "27260": {
+            "LOC_ENG_NM": "Suseong-gu",
+            "AIR_NM": "Suseong-gu",
+            "AIR_KO_NM": "수성구"
+        },
+        "27290": {
+            "LOC_ENG_NM": "Dalseo-gu",
+            "AIR_NM": "Dalseo-gu",
+            "AIR_KO_NM": "달서구"
+        },
+        "27710": {
+            "LOC_ENG_NM": "Dalseong-gun",
+            "AIR_NM": "Dalseong-gun",
+            "AIR_KO_NM": "달성군"
+        },
+        "28110": {
+            "LOC_ENG_NM": "Jung-gu",
+            "AIR_NM": "Jung-gu",
+            "AIR_KO_NM": "중구"
+        },
+        "28140": {
+            "LOC_ENG_NM": "Dong-gu",
+            "AIR_NM": "Dong-gu",
+            "AIR_KO_NM": "동구"
+        },
+        "28185": {
+            "LOC_ENG_NM": "Yeonsu-gu",
+            "AIR_NM": "Yeonsu-gu",
+            "AIR_KO_NM": "연수구"
+        },
+        "28200": {
+            "LOC_ENG_NM": "Namdong-gu",
+            "AIR_NM": "Namdong-gu",
+            "AIR_KO_NM": "남동구"
+        },
+        "28237": {
+            "LOC_ENG_NM": "Bupyeong-gu",
+            "AIR_NM": "Bupyeong-gu",
+            "AIR_KO_NM": "부평구"
+        },
+        "28245": {
+            "LOC_ENG_NM": "Gyeyang-gu",
+            "AIR_NM": "Gyeyang-gu",
+            "AIR_KO_NM": "계양구"
+        },
+        "28260": {
+            "LOC_ENG_NM": "Seo-gu",
+            "AIR_NM": "Seo-gu",
+            "AIR_KO_NM": "서구"
+        },
+        "28710": {
+            "LOC_ENG_NM": "Ganghwa-gun",
+            "AIR_NM": "Ganghwa-gun",
+            "AIR_KO_NM": "강화군"
+        },
+        "29110": {
+            "LOC_ENG_NM": "Dong-gu",
+            "AIR_NM": "Dong-gu",
+            "AIR_KO_NM": "동구"
+        },
+        "29140": {
+            "LOC_ENG_NM": "Seo-gu",
+            "AIR_NM": "Seo-gu",
+            "AIR_KO_NM": "서구"
+        },
+        "29155": {
+            "LOC_ENG_NM": "Nam-gu",
+            "AIR_NM": "Nam-gu",
+            "AIR_KO_NM": "남구"
+        },
+        "29170": {
+            "LOC_ENG_NM": "Buk-gu",
+            "AIR_NM": "Buk-gu",
+            "AIR_KO_NM": "북구"
+        },
+        "29200": {
+            "LOC_ENG_NM": "Gwangsan-gu",
+            "AIR_NM": "Gwangsan-gu",
+            "AIR_KO_NM": "광산구"
+        },
+        "30110": {
+            "LOC_ENG_NM": "Dong-gu",
+            "AIR_NM": "Dong-gu",
+            "AIR_KO_NM": "동구"
+        },
+        "30140": {
+            "LOC_ENG_NM": "Jung-gu",
+            "AIR_NM": "Jung-gu",
+            "AIR_KO_NM": "중구"
+        },
+        "30170": {
+            "LOC_ENG_NM": "Seo-gu",
+            "AIR_NM": "Seo-gu",
+            "AIR_KO_NM": "서구"
+        },
+        "30200": {
+            "LOC_ENG_NM": "Yuseong-gu",
+            "AIR_NM": "Yuseong-gu",
+            "AIR_KO_NM": "유성구"
+        },
+        "30230": {
+            "LOC_ENG_NM": "Daedeok-gu",
+            "AIR_NM": "Daedeok-gu",
+            "AIR_KO_NM": "대덕구"
+        },
+        "31110": {
+            "LOC_ENG_NM": "Jung-gu",
+            "AIR_NM": "Jung-gu",
+            "AIR_KO_NM": "중구"
+        },
+        "31140": {
+            "LOC_ENG_NM": "Nam-gu",
+            "AIR_NM": "Nam-gu",
+            "AIR_KO_NM": "남구"
+        },
+        "31170": {
+            "LOC_ENG_NM": "Dong-gu",
+            "AIR_NM": "Dong-gu",
+            "AIR_KO_NM": "동구"
+        },
+        "31200": {
+            "LOC_ENG_NM": "Buk-gu",
+            "AIR_NM": "Buk-gu",
+            "AIR_KO_NM": "북구"
+        },
+        "31710": {
+            "LOC_ENG_NM": "Ulju-gun",
+            "AIR_NM": "Ulju-gun",
+            "AIR_KO_NM": "울주군"
+        },
+        "36110": {
+            "LOC_ENG_NM": "Sejong-si",
+            "AIR_NM": "Sejong-si",
+            "AIR_KO_NM": "세종시"
+        },
+        "41111": {
+            "LOC_ENG_NM": "Jangan-gu, Suwon-si",
+            "AIR_NM": "Suwon-si",
+            "AIR_KO_NM": "수원시"
+        },
+        "41113": {
+            "LOC_ENG_NM": "Gwonseon-gu, Suwon-si",
+            "AIR_NM": "Suwon-si",
+            "AIR_KO_NM": "수원시"
+        },
+        "41115": {
+            "LOC_ENG_NM": "Paldal-gu, Suwon-si",
+            "AIR_NM": "Suwon-si",
+            "AIR_KO_NM": "수원시"
+        },
+        "41117": {
+            "LOC_ENG_NM": "Yeongtong-gu, Suwon-si",
+            "AIR_NM": "Suwon-si",
+            "AIR_KO_NM": "수원시"
+        },
+        "41131": {
+            "LOC_ENG_NM": "Sujeong-gu, Seongnam-si",
+            "AIR_NM": "Seongnam-si",
+            "AIR_KO_NM": "성남시"
+        },
+        "41133": {
+            "LOC_ENG_NM": "Jungwon-gu, Seongnam-si",
+            "AIR_NM": "Seongnam-si",
+            "AIR_KO_NM": "성남시"
+        },
+        "41135": {
+            "LOC_ENG_NM": "Bundang-gu, Seongnam-si",
+            "AIR_NM": "Seongnam-si",
+            "AIR_KO_NM": "성남시"
+        },
+        "41150": {
+            "LOC_ENG_NM": "Uijeongbu-si",
+            "AIR_NM": "Uijeongbu-si",
+            "AIR_KO_NM": "의정부시"
+        },
+        "41171": {
+            "LOC_ENG_NM": "Manan-gu, Anyang-si",
+            "AIR_NM": "Anyang-si",
+            "AIR_KO_NM": "안양시"
+        },
+        "41173": {
+            "LOC_ENG_NM": "Dongan-gu, Anyang-si",
+            "AIR_NM": "Anyang-si",
+            "AIR_KO_NM": "안양시"
+        },
+        "41190": {
+            "LOC_ENG_NM": "Bucheon-si",
+            "AIR_NM": "Bucheon-si",
+            "AIR_KO_NM": "부천시"
+        },
+        "41210": {
+            "LOC_ENG_NM": "Gwangmyeong-si",
+            "AIR_NM": "Gwangmyeong-si",
+            "AIR_KO_NM": "광명시"
+        },
+        "41220": {
+            "LOC_ENG_NM": "Pyeongtaek-si",
+            "AIR_NM": "Pyeongtaek-si",
+            "AIR_KO_NM": "평택시"
+        },
+        "41250": {
+            "LOC_ENG_NM": "Dongducheon-si",
+            "AIR_NM": "Dongducheon-si",
+            "AIR_KO_NM": "동두천시"
+        },
+        "41271": {
+            "LOC_ENG_NM": "Sangnok-gu, Ansan-si",
+            "AIR_NM": "Ansan-si",
+            "AIR_KO_NM": "안산시"
+        },
+        "41273": {
+            "LOC_ENG_NM": "Danwon-gu, Ansan-si",
+            "AIR_NM": "Ansan-si",
+            "AIR_KO_NM": "안산시"
+        },
+        "41281": {
+            "LOC_ENG_NM": "Deogyang-gu, Goyang-si",
+            "AIR_NM": "Goyang-si",
+            "AIR_KO_NM": "고양시"
+        },
+        "41285": {
+            "LOC_ENG_NM": "Ilsandong-gu, Goyang-si",
+            "AIR_NM": "Goyang-si",
+            "AIR_KO_NM": "고양시"
+        },
+        "41287": {
+            "LOC_ENG_NM": "Ilsanseo-gu, Goyang-si",
+            "AIR_NM": "Goyang-si",
+            "AIR_KO_NM": "고양시"
+        },
+        "41290": {
+            "LOC_ENG_NM": "Gwacheon-si",
+            "AIR_NM": "Gwacheon-si",
+            "AIR_KO_NM": "과천시"
+        },
+        "41310": {
+            "LOC_ENG_NM": "Guri-si",
+            "AIR_NM": "Guri-si",
+            "AIR_KO_NM": "구리시"
+        },
+        "41370": {
+            "LOC_ENG_NM": "Osan-si",
+            "AIR_NM": "Osan-si",
+            "AIR_KO_NM": "오산시"
+        },
+        "41390": {
+            "LOC_ENG_NM": "Siheung-si",
+            "AIR_NM": "Siheung-si",
+            "AIR_KO_NM": "시흥시"
+        },
+        "41410": {
+            "LOC_ENG_NM": "Gunpo-si",
+            "AIR_NM": "Gunpo-si",
+            "AIR_KO_NM": "군포시"
+        },
+        "41430": {
+            "LOC_ENG_NM": "Uiwang-si",
+            "AIR_NM": "Uiwang-si",
+            "AIR_KO_NM": "의왕시"
+        },
+        "41450": {
+            "LOC_ENG_NM": "Hanam-si",
+            "AIR_NM": "Hanam-si",
+            "AIR_KO_NM": "하남시"
+        },
+        "41461": {
+            "LOC_ENG_NM": "Cheoin-gu, Yongin-si",
+            "AIR_NM": "Yongin-si",
+            "AIR_KO_NM": "용인시"
+        },
+        "41463": {
+            "LOC_ENG_NM": "Giheung-gu, Yongin-si",
+            "AIR_NM": "Yongin-si",
+            "AIR_KO_NM": "용인시"
+        },
+        "41465": {
+            "LOC_ENG_NM": "Suji-gu, Yongin-si",
+            "AIR_NM": "Yongin-si",
+            "AIR_KO_NM": "용인시"
+        },
+        "41480": {
+            "LOC_ENG_NM": "Paju-si",
+            "AIR_NM": "Paju-si",
+            "AIR_KO_NM": "파주시"
+        },
+        "41500": {
+            "LOC_ENG_NM": "Icheon-si",
+            "AIR_NM": "Icheon-si",
+            "AIR_KO_NM": "이천시"
+        },
+        "41570": {
+            "LOC_ENG_NM": "Gimpo-si",
+            "AIR_NM": "Gimpo-si",
+            "AIR_KO_NM": "김포시"
+        },
+        "41590": {
+            "LOC_ENG_NM": "Hwaseong-si",
+            "AIR_NM": "Hwaseong-si",
+            "AIR_KO_NM": "화성시"
+        },
+        "41610": {
+            "LOC_ENG_NM": "Gwangju-si",
+            "AIR_NM": "Gwangju-si",
+            "AIR_KO_NM": "광주시"
+        },
+        "41630": {
+            "LOC_ENG_NM": "Yangju-si",
+            "AIR_NM": "Yangju-si",
+            "AIR_KO_NM": "양주시"
+        },
+        "41650": {
+            "LOC_ENG_NM": "Pocheon-si",
+            "AIR_NM": "Pocheon-si",
+            "AIR_KO_NM": "포천시"
+        },
+        "41800": {
+            "LOC_ENG_NM": "Yeoncheon-gun",
+            "AIR_NM": "Yeoncheon-gun",
+            "AIR_KO_NM": "연천군"
+        },
+        "41820": {
+            "LOC_ENG_NM": "Gapyeong-gun",
+            "AIR_NM": "Gapyeong-gun",
+            "AIR_KO_NM": "가평군"
+        },
+        "41830": {
+            "LOC_ENG_NM": "Yangpyeong-gun",
+            "AIR_NM": "Yangpyeong-gun",
+            "AIR_KO_NM": "양평군"
+        },
+        "42110": {
+            "LOC_ENG_NM": "Chuncheon-si",
+            "AIR_NM": "Chuncheon-si",
+            "AIR_KO_NM": "춘천시"
+        },
+        "42130": {
+            "LOC_ENG_NM": "Wonju-si",
+            "AIR_NM": "Wonju-si",
+            "AIR_KO_NM": "원주시"
+        },
+        "42150": {
+            "LOC_ENG_NM": "Gangneung-si",
+            "AIR_NM": "Gangneung-si",
+            "AIR_KO_NM": "강릉시"
+        },
+        "42170": {
+            "LOC_ENG_NM": "Donghae-si",
+            "AIR_NM": "Donghae-si",
+            "AIR_KO_NM": "동해시"
+        },
+        "42190": {
+            "LOC_ENG_NM": "Taebaek-si",
+            "AIR_NM": "Taebaek-si",
+            "AIR_KO_NM": "태백시"
+        },
+        "42210": {
+            "LOC_ENG_NM": "Sokcho-si",
+            "AIR_NM": "Sokcho-si",
+            "AIR_KO_NM": "속초시"
+        },
+        "42230": {
+            "LOC_ENG_NM": "Samcheok-si",
+            "AIR_NM": "Samcheok-si",
+            "AIR_KO_NM": "삼척시"
+        },
+        "42720": {
+            "LOC_ENG_NM": "Hongcheon-gun",
+            "AIR_NM": "Hongcheon-gun",
+            "AIR_KO_NM": "홍천군"
+        },
+        "42730": {
+            "LOC_ENG_NM": "Hoengseong-gun",
+            "AIR_NM": "Hoengseong-gun",
+            "AIR_KO_NM": "횡성군"
+        },
+        "42750": {
+            "LOC_ENG_NM": "Yeongwol-gun",
+            "AIR_NM": "Yeongwol-gun",
+            "AIR_KO_NM": "영월군"
+        },
+        "42760": {
+            "LOC_ENG_NM": "Pyeongchang-gun",
+            "AIR_NM": "Pyeongchang-gun",
+            "AIR_KO_NM": "평창군"
+        },
+        "42770": {
+            "LOC_ENG_NM": "Jeongseon-gun",
+            "AIR_NM": "Jeongseon-gun",
+            "AIR_KO_NM": "정선군"
+        },
+        "42780": {
+            "LOC_ENG_NM": "Cheorwon-gun",
+            "AIR_NM": "Cheorwon-gun",
+            "AIR_KO_NM": "철원군"
+        },
+        "42790": {
+            "LOC_ENG_NM": "Hwacheon-gun",
+            "AIR_NM": "Hwacheon-gun",
+            "AIR_KO_NM": "화천군"
+        },
+        "42800": {
+            "LOC_ENG_NM": "Yanggu-gun",
+            "AIR_NM": "Yanggu-gun",
+            "AIR_KO_NM": "양구군"
+        },
+        "42810": {
+            "LOC_ENG_NM": "Inje-gun",
+            "AIR_NM": "Inje-gun",
+            "AIR_KO_NM": "인제군"
+        },
+        "42820": {
+            "LOC_ENG_NM": "Goseong-gun",
+            "AIR_NM": "Goseong-gun",
+            "AIR_KO_NM": "고성군"
+        },
+        "42830": {
+            "LOC_ENG_NM": "Yangyang-gun",
+            "AIR_NM": "Yangyang-gun",
+            "AIR_KO_NM": "양양군"
+        },
+        "43111": {
+            "LOC_ENG_NM": "Sangdang-gu, Cheongju-si",
+            "AIR_NM": "Cheongju-si",
+            "AIR_KO_NM": "청주시"
+        },
+        "43112": {
+            "LOC_ENG_NM": "Seowon-gu, Cheongju-si",
+            "AIR_NM": "Cheongju-si",
+            "AIR_KO_NM": "청주시"
+        },
+        "43113": {
+            "LOC_ENG_NM": "Heungdeok-gu, Cheongju-si",
+            "AIR_NM": "Cheongju-si",
+            "AIR_KO_NM": "청주시"
+        },
+        "43114": {
+            "LOC_ENG_NM": "Cheongwon-gu, Cheongju-si",
+            "AIR_NM": "Cheongju-si",
+            "AIR_KO_NM": "청주시"
+        },
+        "43130": {
+            "LOC_ENG_NM": "Chungju-si",
+            "AIR_NM": "Chungju-si",
+            "AIR_KO_NM": "충주시"
+        },
+        "43150": {
+            "LOC_ENG_NM": "Jecheon-si",
+            "AIR_NM": "Jecheon-si",
+            "AIR_KO_NM": "제천시"
+        },
+        "43720": {
+            "LOC_ENG_NM": "Boeun-gun",
+            "AIR_NM": "Boeun-gun",
+            "AIR_KO_NM": "보은군"
+        },
+        "43730": {
+            "LOC_ENG_NM": "Okcheon-gun",
+            "AIR_NM": "Okcheon-gun",
+            "AIR_KO_NM": "옥천군"
+        },
+        "43740": {
+            "LOC_ENG_NM": "Yeongdong-gun",
+            "AIR_NM": "Yeongdong-gun",
+            "AIR_KO_NM": "영동군"
+        },
+        "43745": {
+            "LOC_ENG_NM": "Jeungpyeong-gun",
+            "AIR_NM": "Jeungpyeong-gun",
+            "AIR_KO_NM": "증평군"
+        },
+        "43750": {
+            "LOC_ENG_NM": "Jincheon-gun",
+            "AIR_NM": "Jincheon-gun",
+            "AIR_KO_NM": "진천군"
+        },
+        "43760": {
+            "LOC_ENG_NM": "Goesan-gun",
+            "AIR_NM": "Goesan-gun",
+            "AIR_KO_NM": "괴산군"
+        },
+        "43770": {
+            "LOC_ENG_NM": "Eumseong-gun",
+            "AIR_NM": "Eumseong-gun",
+            "AIR_KO_NM": "음성군"
+        },
+        "44131": {
+            "LOC_ENG_NM": "Dongnam-gu, Cheonan-si",
+            "AIR_NM": "Cheonan-si",
+            "AIR_KO_NM": "천안시"
+        },
+        "44133": {
+            "LOC_ENG_NM": "Seobuk-gu, Cheonan-si",
+            "AIR_NM": "Cheonan-si",
+            "AIR_KO_NM": "천안시"
+        },
+        "44150": {
+            "LOC_ENG_NM": "Gongju-si",
+            "AIR_NM": "Gongju-si",
+            "AIR_KO_NM": "공주시"
+        },
+        "44180": {
+            "LOC_ENG_NM": "Boryeong-si",
+            "AIR_NM": "Boryeong-si",
+            "AIR_KO_NM": "보령시"
+        },
+        "44200": {
+            "LOC_ENG_NM": "Asan-si",
+            "AIR_NM": "Asan-si",
+            "AIR_KO_NM": "아산시"
+        },
+        "44210": {
+            "LOC_ENG_NM": "Seosan-si",
+            "AIR_NM": "Seosan-si",
+            "AIR_KO_NM": "서산시"
+        },
+        "44230": {
+            "LOC_ENG_NM": "Nonsan-si",
+            "AIR_NM": "Nonsan-si",
+            "AIR_KO_NM": "논산시"
+        },
+        "44250": {
+            "LOC_ENG_NM": "Gyeryong-si",
+            "AIR_NM": "",
+            "AIR_KO_NM": "계룡시"
+        },
+        "44270": {
+            "LOC_ENG_NM": "Dangjin-si",
+            "AIR_NM": "",
+            "AIR_KO_NM": "계룡시"
+        },
+        "44710": {
+            "LOC_ENG_NM": "Geumsan-gun",
+            "AIR_NM": "Geumsan-gun",
+            "AIR_KO_NM": "금산군"
+        },
+        "44760": {
+            "LOC_ENG_NM": "Buyeo-gun",
+            "AIR_NM": "Buyeo-gun",
+            "AIR_KO_NM": "부여군"
+        },
+        "44770": {
+            "LOC_ENG_NM": "Seocheon-gun",
+            "AIR_NM": "Seocheon-gun",
+            "AIR_KO_NM": "서천군"
+        },
+        "44790": {
+            "LOC_ENG_NM": "Cheongyang-gun",
+            "AIR_NM": "Cheongyang-gun",
+            "AIR_KO_NM": "청양군"
+        },
+        "44800": {
+            "LOC_ENG_NM": "Hongseong-gun",
+            "AIR_NM": "Hongseong-gun",
+            "AIR_KO_NM": "홍성군"
+        },
+        "44810": {
+            "LOC_ENG_NM": "Yesan-gun",
+            "AIR_NM": "Yesan-gun",
+            "AIR_KO_NM": "예산군"
+        },
+        "44825": {
+            "LOC_ENG_NM": "Taean-gun",
+            "AIR_NM": "Taean-gun",
+            "AIR_KO_NM": "태안군"
+        },
+        "46110": {
+            "LOC_ENG_NM": "Mokpo-si",
+            "AIR_NM": "Mokpo-si",
+            "AIR_KO_NM": "목포시"
+        },
+        "46130": {
+            "LOC_ENG_NM": "Yeosu-si",
+            "AIR_NM": "Yeosu-si",
+            "AIR_KO_NM": "여수시"
+        },
+        "46150": {
+            "LOC_ENG_NM": "Suncheon-si",
+            "AIR_NM": "Suncheon-si",
+            "AIR_KO_NM": "순천시"
+        },
+        "46170": {
+            "LOC_ENG_NM": "Naju-si",
+            "AIR_NM": "Naju-si",
+            "AIR_KO_NM": "나주시"
+        },
+        "46230": {
+            "LOC_ENG_NM": "Gwangyang-si",
+            "AIR_NM": "Gwangyang-si",
+            "AIR_KO_NM": "광양시"
+        },
+        "46730": {
+            "LOC_ENG_NM": "Gurye-gun",
+            "AIR_NM": "Gurye-gun",
+            "AIR_KO_NM": "구례군"
+        },
+        "46770": {
+            "LOC_ENG_NM": "Goheung-gun",
+            "AIR_NM": "Goheung-gun",
+            "AIR_KO_NM": "고흥군"
+        },
+        "46790": {
+            "LOC_ENG_NM": "Hwasun-gun",
+            "AIR_NM": "Hwasun-gun",
+            "AIR_KO_NM": "화순군"
+        },
+        "46800": {
+            "LOC_ENG_NM": "Jangheung-gun",
+            "AIR_NM": "Jangheung-gun",
+            "AIR_KO_NM": "장흥군"
+        },
+        "46810": {
+            "LOC_ENG_NM": "Gangjin-gun",
+            "AIR_NM": "Gangjin-gun",
+            "AIR_KO_NM": "강진군"
+        },
+        "46820": {
+            "LOC_ENG_NM": "Haenam-gun",
+            "AIR_NM": "Haenam-gun",
+            "AIR_KO_NM": "해남군"
+        },
+        "46830": {
+            "LOC_ENG_NM": "Yeongam-gun",
+            "AIR_NM": "Yeongam-gun",
+            "AIR_KO_NM": "영암군"
+        },
+        "46840": {
+            "LOC_ENG_NM": "Muan-gun",
+            "AIR_NM": "Muan-gun",
+            "AIR_KO_NM": "무안군"
+        },
+        "46860": {
+            "LOC_ENG_NM": "Hampyeong-gun",
+            "AIR_NM": "Hampyeong-gun",
+            "AIR_KO_NM": "함평군"
+        },
+        "46870": {
+            "LOC_ENG_NM": "Yeonggwang-gun",
+            "AIR_NM": "Yeonggwang-gun",
+            "AIR_KO_NM": "영광군"
+        },
+        "46880": {
+            "LOC_ENG_NM": "Jangseong-gun",
+            "AIR_NM": "Jangseong-gun",
+            "AIR_KO_NM": "장성군"
+        },
+        "46890": {
+            "LOC_ENG_NM": "Wando-gun",
+            "AIR_NM": "Wando-gun",
+            "AIR_KO_NM": "완도군"
+        },
+        "46900": {
+            "LOC_ENG_NM": "Jindo-gun",
+            "AIR_NM": "Jindo-gun",
+            "AIR_KO_NM": "진도군"
+        },
+        "46910": {
+            "LOC_ENG_NM": "Sinan-gun",
+            "AIR_NM": "Sinan-gun",
+            "AIR_KO_NM": "신안군"
+        },
+        "47111": {
+            "LOC_ENG_NM": "Nam-gu, Pohang-si",
+            "AIR_NM": "Pohang-si",
+            "AIR_KO_NM": "포항시"
+        },
+        "47113": {
+            "LOC_ENG_NM": "Buk-gu, Pohang-si",
+            "AIR_NM": "Pohang-si",
+            "AIR_KO_NM": "포항시"
+        },
+        "47130": {
+            "LOC_ENG_NM": "Gyeongju-si",
+            "AIR_NM": "Gyeongju-si",
+            "AIR_KO_NM": "경주시"
+        },
+        "47150": {
+            "LOC_ENG_NM": "Gimcheon-si",
+            "AIR_NM": "Gimcheon-si",
+            "AIR_KO_NM": "김천시"
+        },
+        "47170": {
+            "LOC_ENG_NM": "Andong-si",
+            "AIR_NM": "Andong-si",
+            "AIR_KO_NM": "안동시"
+        },
+        "47190": {
+            "LOC_ENG_NM": "Gumi-si",
+            "AIR_NM": "Gumi-si",
+            "AIR_KO_NM": "구미시"
+        },
+        "47210": {
+            "LOC_ENG_NM": "Yeongju-si",
+            "AIR_NM": "Yeongju-si",
+            "AIR_KO_NM": "영주시"
+        },
+        "47230": {
+            "LOC_ENG_NM": "Yeongcheon-si",
+            "AIR_NM": "Yeongcheon-si",
+            "AIR_KO_NM": "영천시"
+        },
+        "47250": {
+            "LOC_ENG_NM": "Sangju-si",
+            "AIR_NM": "Sangju-si",
+            "AIR_KO_NM": "상주시"
+        },
+        "47280": {
+            "LOC_ENG_NM": "Mungyeong-si",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "47290": {
+            "LOC_ENG_NM": "Gyeongsan-si",
+            "AIR_NM": "Gyeongsan-si",
+            "AIR_KO_NM": "경산시"
+        },
+        "47720": {
+            "LOC_ENG_NM": "Gunwi-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "47730": {
+            "LOC_ENG_NM": "Uiseong-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "47750": {
+            "LOC_ENG_NM": "Cheongsong-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "47760": {
+            "LOC_ENG_NM": "Yeongyang-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "47770": {
+            "LOC_ENG_NM": "Yeongdeok-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "47820": {
+            "LOC_ENG_NM": "Cheongdo-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "47830": {
+            "LOC_ENG_NM": "Goryeong-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "47840": {
+            "LOC_ENG_NM": "Seongju-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "47850": {
+            "LOC_ENG_NM": "Chilgok-gun",
+            "AIR_NM": "Chilgok-gun",
+            "AIR_KO_NM": "칠곡군"
+        },
+        "47900": {
+            "LOC_ENG_NM": "Yecheon-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "47920": {
+            "LOC_ENG_NM": "Bonghwa-gun",
+            "AIR_NM": "Bonghwa-gun",
+            "AIR_KO_NM": "봉화군"
+        },
+        "47930": {
+            "LOC_ENG_NM": "Uljin-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "47940": {
+            "LOC_ENG_NM": "Ulleung-gun",
+            "AIR_NM": "Ulleung-gun",
+            "AIR_KO_NM": "울릉군"
+        },
+        "48121": {
+            "LOC_ENG_NM": "Uichang-gu, Changwon-si",
+            "AIR_NM": "Changwon-si",
+            "AIR_KO_NM": "창원시"
+        },
+        "48123": {
+            "LOC_ENG_NM": "Seongsan-gu, Changwon-si",
+            "AIR_NM": "Changwon-si",
+            "AIR_KO_NM": "창원시"
+        },
+        "48125": {
+            "LOC_ENG_NM": "Masanhappo-gu, Changwon-si",
+            "AIR_NM": "Changwon-si",
+            "AIR_KO_NM": "창원시"
+        },
+        "48127": {
+            "LOC_ENG_NM": "Masanhoewon-gu, Changwon-si",
+            "AIR_NM": "Changwon-si",
+            "AIR_KO_NM": "창원시"
+        },
+        "48129": {
+            "LOC_ENG_NM": "Jinhae-gu, Changwon-si",
+            "AIR_NM": "Changwon-si",
+            "AIR_KO_NM": "창원시"
+        },
+        "48170": {
+            "LOC_ENG_NM": "Jinju-si",
+            "AIR_NM": "Jinju-si",
+            "AIR_KO_NM": "진주시"
+        },
+        "48220": {
+            "LOC_ENG_NM": "Tongyeong-si",
+            "AIR_NM": "Tongyeong-si",
+            "AIR_KO_NM": "통영시"
+        },
+        "48240": {
+            "LOC_ENG_NM": "Sacheon-si",
+            "AIR_NM": "Sacheon-si",
+            "AIR_KO_NM": "사천시"
+        },
+        "48250": {
+            "LOC_ENG_NM": "Gimhae-si",
+            "AIR_NM": "Gimhae-si",
+            "AIR_KO_NM": "김해시"
+        },
+        "48270": {
+            "LOC_ENG_NM": "Miryang-si",
+            "AIR_NM": "Miryang-si",
+            "AIR_KO_NM": "밀양시"
+        },
+        "48310": {
+            "LOC_ENG_NM": "Geoje-si",
+            "AIR_NM": "Geoje-si",
+            "AIR_KO_NM": "거제시"
+        },
+        "48330": {
+            "LOC_ENG_NM": "Yangsan-si",
+            "AIR_NM": "Yangsan-si",
+            "AIR_KO_NM": "양산시"
+        },
+        "48720": {
+            "LOC_ENG_NM": "Uiryeong-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "48730": {
+            "LOC_ENG_NM": "Haman-gun",
+            "AIR_NM": "Haman-gun",
+            "AIR_KO_NM": "함안군"
+        },
+        "48740": {
+            "LOC_ENG_NM": "Changnyeong-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "48820": {
+            "LOC_ENG_NM": "Goseong-gun",
+            "AIR_NM": "Goseong-gun",
+            "AIR_KO_NM": "고성군"
+        },
+        "48840": {
+            "LOC_ENG_NM": "Namhae-gun",
+            "AIR_NM": "Namhae-gun",
+            "AIR_KO_NM": "남해군"
+        },
+        "48850": {
+            "LOC_ENG_NM": "Hadong-gun",
+            "AIR_NM": "Hadong-gun",
+            "AIR_KO_NM": "하동군"
+        },
+        "48860": {
+            "LOC_ENG_NM": "Sancheong-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "48870": {
+            "LOC_ENG_NM": "Hamyang-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "48880": {
+            "LOC_ENG_NM": "Geochang-gun",
+            "AIR_NM": "Geochang-gun",
+            "AIR_KO_NM": "거창군"
+        },
+        "48890": {
+            "LOC_ENG_NM": "Hapcheon-gun",
+            "AIR_NM": "데이터없음",
+            "AIR_KO_NM": "데이터없음"
+        },
+        "50110": {
+            "LOC_ENG_NM": "Jeju-si",
+            "AIR_NM": "Jeju-si",
+            "AIR_KO_NM": "제주시"
+        },
+        "50130": {
+            "LOC_ENG_NM": "Seogwipo-si",
+            "AIR_NM": "Seogwipo-si",
+            "AIR_KO_NM": "서귀포시"
+        },
+        "undefined": {
+            "AIR_NM": "Yangyang-gun",
+            "AIR_KO_NM": "양양군"
+        }
+}
