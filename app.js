@@ -23,32 +23,35 @@ const getGeoData = (zoomLevel = 2, parentCd) => require(`./geoJSON/${zoomLevel =
  * @param {*} zoomLevel
  */
 const preprocessing = (geoJSON, zoomLevel) => {
-  if (zoomLevel !== '6') return Promise.resolve(geoJSON)
-  return geoJSON.features.reduce(
-    (pre, feature, idx) => pre.then((_geoJSON) => searchOperation({ _geoJSON, idx })).then(getNearStation),
-    Promise.resolve(geoJSON)
-  )
+  if (zoomLevel !== '6') 
+    return Promise.resolve(geoJSON)
+  else
+    return geoJSON.features.reduce(
+      (pre, feature, idx) => {
+        return pre
+          .then(_geoJSON => searchOperation({ _geoJSON, idx }))
+          .then(getNearStation)
+      },
+      Promise.resolve(geoJSON)
+    )
 }
 
 // 전국구 GeoData 가져오기
 app.get('/country', ({ query: { parentCd = 2, zoomLevel = 2 } }, res) =>
   preprocessing(getGeoData(zoomLevel, parentCd), zoomLevel)
-    .then((_geoJSON) => requestPublicServer(_geoJSON, zoomLevel, parentCd))
-    .then((rtn) => 
-    
-    
-    res.send( JSON.stringify(rtn) ))
+    .then(_geoJSON => requestPublicServer(_geoJSON, zoomLevel, parentCd))
+    .then(rtn => res.send( JSON.stringify(rtn) ))
     .then(() => console.log('=========== 전국구 조회완료 ==========='))
-    .catch((e) => console.log(e))
+    .catch(e => console.log(e))
 )
 
 // 시군구 GeoData 가져오기
 app.get('/sig', ({ query: { parentCd = 2, zoomLevel = 2 } }, res) =>
   preprocessing(getGeoData(zoomLevel, parentCd), zoomLevel)
-    .then((_geoJSON) => requestPublicServer(_geoJSON, zoomLevel, parentCd))
-    .then((rtn) => res.send(rtn))
+    .then(_geoJSON => requestPublicServer(_geoJSON, zoomLevel, parentCd))
+    .then(rtn => res.send(rtn))
     .then(() => console.log('=========== 시군구 조회완료 ==========='))
-    .catch((e) => console.log(e))
+    .catch(e => console.log(e))
 )
 
 // 읍면동 GeoData 가져오기

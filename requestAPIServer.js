@@ -36,19 +36,27 @@ module.exports = {
     const _feature = _geoJSON.features[idx]
     const LOC_KOR_NM = _feature.properties.LOC_KOR_NM
     const umdName = qs.escape(LOC_KOR_NM)
-    const searchTMOperationURL = getSearchTMOperationURL(umdName)
+    const serviceURL = getSearchTMOperationURL(umdName)
 
     console.log('TM 기준좌표 조회 오퍼레이션', LOC_KOR_NM)
 
-    request(searchTMOperationURL, (error, response, body) => {
+    request(serviceURL, (error, response, body) => {
       if (response.statusCode === 200) {
         try {
           const airData = JSON.parse(body)
-          _feature.properties.STATION_INFO = {
-            'tmX': airData.list[0].tmX,
-            'tmY': airData.list[0].tmY,
-            'umdName': airData.list[0].umdName
+
+          if(!_feature.properties.STATION_INFO){
+            _feature.properties.STATION_INFO = {
+              'tmX': airData.list[0].tmX,
+              'tmY': airData.list[0].tmY,
+              'umdName': airData.list[0].umdName
+            }
+            //파일쓰기 로직 삽입.
+            //fs.writeSync()
           }
+          
+
+
         } catch (e) {
           console.error(`${LOC_KOR_NM} TM 기준좌표 조회 정보가 없습니다.`)
           _feature.properties.STATION_INFO = {
@@ -76,9 +84,16 @@ module.exports = {
         try {
           if (response.statusCode === 200) {
             const airData = JSON.parse(body)
+            let stationName = airData.list[0].stationName
             // 가장 가까운 곳
-            console.log(`${_feature.LOC_KOR_NM}의  관측소 ${airData.list[0].stationName}`)
-            _feature.STATION_INFO.stationName = airData.list[0].stationName
+            console.log(`${_feature.LOC_KOR_NM}의  관측소 ${stationName}`)
+            if(!_feature.STATION_INFO.stationName){
+              _feature.STATION_INFO.stationName = stationName
+
+              //파일쓰기.
+              //fs.writeSync()
+            }
+            
             resolve(_geoJSON)
           } else {
             console.error(error)
