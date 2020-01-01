@@ -60,6 +60,8 @@ app.get('/emd', ({ query: { parentCd = 2, zoomLevel = 2 } }, res) => {
     .catch((e) => console.error(e))
 })
 
+app.use('/', express.static(__dirname + '/public'));
+
 app.listen(port, function () {
   console.log('Node Server is Run  listening on port ' + port + '!')
 })
