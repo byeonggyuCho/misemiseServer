@@ -61,6 +61,7 @@ app.get('/emd', ({ query: { parentCd = 2, zoomLevel = 2 } }, res) => {
 })
 
 app.use('/', express.static(__dirname + '/public'));
+app.use('/static', express.static(__dirname + '/public/static'));
 
 app.listen(port, function () {
   console.log('Node Server is Run  listening on port ' + port + '!')
