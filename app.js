@@ -36,7 +36,6 @@ app.get('/country', ({ query: { parentCd = 2, zoomLevel = 2 } }, res) =>
     .then((_geoJSON) => requestPublicServer(_geoJSON, zoomLevel, parentCd))
     .then((rtn) => 
     
-    
     res.send( JSON.stringify(rtn) ))
     .then(() => console.log('=========== 전국구 조회완료 ==========='))
     .catch((e) => console.log(e))
