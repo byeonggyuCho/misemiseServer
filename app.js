@@ -31,7 +31,7 @@ const preprocessing = (geoJSON, zoomLevel) => {
 }
 
 // 전국구 GeoData 가져오기
-app.get('/country', ({ query: { parentCd = 2, zoomLevel = 2 } }, res) =>
+app.get('/country', ({ query: { parentCd = 2, zoomLevel = 6 } }, res) =>
   preprocessing(getGeoData(zoomLevel, parentCd), zoomLevel)
     .then((_geoJSON) => requestPublicServer(_geoJSON, zoomLevel, parentCd))
     .then((rtn) => 
@@ -43,7 +43,7 @@ app.get('/country', ({ query: { parentCd = 2, zoomLevel = 2 } }, res) =>
 )
 
 // 시군구 GeoData 가져오기
-app.get('/sig', ({ query: { parentCd = 2, zoomLevel = 2 } }, res) =>
+app.get('/sig', ({ query: { parentCd = 2, zoomLevel = 6 } }, res) =>
   preprocessing(getGeoData(zoomLevel, parentCd), zoomLevel)
     .then((_geoJSON) => requestPublicServer(_geoJSON, zoomLevel, parentCd))
     .then((rtn) => res.send(rtn))
@@ -52,7 +52,7 @@ app.get('/sig', ({ query: { parentCd = 2, zoomLevel = 2 } }, res) =>
 )
 
 // 읍면동 GeoData 가져오기
-app.get('/emd', ({ query: { parentCd = 2, zoomLevel = 2 } }, res) => {
+app.get('/emd', ({ query: { parentCd = 2, zoomLevel = 6 } }, res) => {
   preprocessing(getGeoData(zoomLevel, parentCd), zoomLevel)
     .then((_geoJSON) => getEMDDate(_geoJSON, zoomLevel, parentCd))
     .then((rtn) => res.send({ geoData: rtn.features }))
