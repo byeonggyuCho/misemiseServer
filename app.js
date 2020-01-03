@@ -14,8 +14,11 @@ const port = process.env.PORT
 
 // CORS 허용 미들웨어
 app.all('/*', cors)
+const zoomRange = ['7','9','11'];
+const minZoomLevel = zoomRange[0];
+const maxZoomLevel = zoomRange[zoomRange.length-1];
+const getGeoData = (zoomLevel = 2, parentCd) => require(`./geoJSON/${zoomLevel === minZoomLevel ? '1.json' : `${parentCd}.json`}`)
 
-const getGeoData = (zoomLevel = 2, parentCd) => require(`./geoJSON/${zoomLevel === '2' ? '1.json' : `${parentCd}.json`}`)
 
 /**
  * geoJSON 데이터 가공을 위한 전처리 작업.
@@ -23,7 +26,7 @@ const getGeoData = (zoomLevel = 2, parentCd) => require(`./geoJSON/${zoomLevel =
  * @param {*} zoomLevel
  */
 const preprocessing = (geoJSON, zoomLevel) => {
-  if (zoomLevel !== '6') 
+  if (zoomLevel !== maxZoomLevel) 
     return Promise.resolve(geoJSON)
   else
     return geoJSON.features.reduce(
@@ -37,7 +40,7 @@ const preprocessing = (geoJSON, zoomLevel) => {
 }
 
 // 전국구 GeoData 가져오기
-app.get('/country', ({ query: { parentCd = 2, zoomLevel = 6 } }, res) =>
+app.get('/country', ({ query: { parentCd = 2, zoomLevel = minZoomLevel } }, res) =>
   preprocessing(getGeoData(zoomLevel, parentCd), zoomLevel)
     .then(_geoJSON => requestPublicServer(_geoJSON, zoomLevel, parentCd))
     .then(rtn => res.send( JSON.stringify(rtn) ))
@@ -46,7 +49,7 @@ app.get('/country', ({ query: { parentCd = 2, zoomLevel = 6 } }, res) =>
 )
 
 // 시군구 GeoData 가져오기
-app.get('/sig', ({ query: { parentCd = 2, zoomLevel = 6 } }, res) =>
+app.get('/sig', ({ query: { parentCd = 2, zoomLevel = minZoomLevel } }, res) =>
   preprocessing(getGeoData(zoomLevel, parentCd), zoomLevel)
     .then(_geoJSON => requestPublicServer(_geoJSON, zoomLevel, parentCd))
     .then(rtn => res.send(rtn))
@@ -55,7 +58,7 @@ app.get('/sig', ({ query: { parentCd = 2, zoomLevel = 6 } }, res) =>
 )
 
 // 읍면동 GeoData 가져오기
-app.get('/emd', ({ query: { parentCd = 2, zoomLevel = 6 } }, res) => {
+app.get('/emd', ({ query: { parentCd = 2, zoomLevel = minZoomLevel } }, res) => {
   preprocessing(getGeoData(zoomLevel, parentCd), zoomLevel)
     .then((_geoJSON) => getEMDDate(_geoJSON, zoomLevel, parentCd))
     .then((rtn) => res.send({ geoData: rtn.features }))
