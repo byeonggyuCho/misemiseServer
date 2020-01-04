@@ -1,9 +1,16 @@
 require('dotenv').config()
 
-const fs = require('fs')
-const path = require('path')
-const adapterString = fs.readFileSync(path.join(__dirname, 'util/adaptor.json'))
-const adaptorJSON = JSON.parse(adapterString)
+const {getJSON} = require('./util/common.js')
+const adaptorJSON = getJSON("adaptor.json")
+const {
+  zoomLevel: {
+          countryLevel,
+          sigLevel,
+          emdLevel 
+  }
+} = getJSON('config.json');
+
+
 const qs = require('querystring')
 
 // air API의 requset parameter로 변환하여 반환한다.
@@ -15,20 +22,20 @@ const pageNo = 1
 const Rows = 100
 
 module.exports = {
-  getAirKoreaUrl: function (zoomLevel = 2, parentCd, stationName) {
+  getAirKoreaUrl: function (zoomLevel = countryLevel, parentCd, stationName) {
     let uri = `${OPENAPI_URI}/rest/ArpltnInforInqireSvc`
 
     switch (zoomLevel) {
-      case '2': // 시도 ( (5) 시도별 실시간 평균정보 조회 오퍼레이션 명세)
+      case countryLevel: // 시도 ( (5) 시도별 실시간 평균정보 조회 오퍼레이션 명세)
         uri += `/getCtprvnMesureLIst?itemCode=PM10&dataGubun=HOUR&searchCondition=WEEK`
         break
 
-      case '4': // 시군구 (6) 시군구별 실시간 평균정보 조회 오퍼레이션 명세
+      case sigLevel: // 시군구 (6) 시군구별 실시간 평균정보 조회 오퍼레이션 명세
         const sidoName = nameConverter(adaptorJSON, parentCd)
         uri += `/getCtprvnMesureSidoLIst?sidoName=${sidoName}&searchCondition=HOUR`
         break
 
-      case '6': // 읍면동
+      case emdLevel: // 읍면동
         uri += `/getMsrstnAcctoRltmMesureDnsty?stationName=${stationName}&dataTerm=month&ver=1.3`
         break
     }

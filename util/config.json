@@ -1,0 +1,17 @@
+{
+    "zoomLevel":{
+        "countryLevel"  : "7",
+        "sigLevel"      : "9",
+        "emdLevel"      : "11"
+    },
+
+    "zoomRange":["7","9","11"],
+
+    "airLevel":[
+            { "min": 0, "max": 15, "level": "좋음" },
+            { "min": 16, "max": 35, "level": "보통" },
+            { "min": 36, "max": 75, "level": "나쁨" },
+            { "min": 76, "max": 999, "level": "매우나쁨" }
+    ]
+    
+}

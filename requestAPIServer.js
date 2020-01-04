@@ -1,18 +1,18 @@
 const request = require('request')
-const fs = require('fs')
-const path = require('path')
 const qs = require('querystring')
+const {getJSON} =  require('./util/common.js')
 
 const { getAirKoreaUrl, getSearchTMOperationURL, getSearchNearStationURL } = require('./createURI')
-const adapterString = fs.readFileSync(path.join(__dirname, 'util/adaptor.json'))
-const adaptorJSON = JSON.parse(adapterString)
-
-const container = [
-  { min: 0, max: 15, level: '좋음' },
-  { min: 16, max: 35, level: '보통' },
-  { min: 36, max: 75, level: '나쁨' },
-  { min: 76, max: 999, level: '매우나쁨' }
-]
+const adaptorJSON = getJSON('adaptor.json');
+const {
+   airLevel, 
+    zoomRange, 
+    zoomLevel: {
+            countryLevel,
+            sigLevel,
+            emdLevel 
+    }
+  } = getJSON('config.json');
 
 const promiseFactory = (fn) =>
   new Promise((resolve, reject) => {
@@ -26,7 +26,7 @@ const getLevel = (_num) => {
     return 'undefind'
   }
 
-  const re = container.find(item => item.min <= _num && item.max >= _num)
+  const re = airLevel.find(item => item.min <= _num && item.max >= _num)
   return re ? re.level : 'undefind'
 }
 
@@ -116,14 +116,14 @@ module.exports = {
         if (response.statusCode === 200) {
           let airData = JSON.parse(body)
 
-          if (zoomLevel === '2') {
+          if (zoomLevel === countryLevel) {
             airData = airData.list[0]
-          } else if (zoomLevel === '4') {
+          } else if (zoomLevel === sigLevel) {
             airData = airData.list.reduce((pre, cur) => {
               pre[cur.cityNameEng] = cur.pm25Value
               return pre
             }, {})
-          } else if (zoomLevel === '6') {
+          } else if (zoomLevel === emdLevel) {
           // 데이터 포멧에 맞춰서 수정.
           }
 
@@ -145,7 +145,7 @@ module.exports = {
 
           reslove({ geoData: _geoJSON })
         } else {
-          throw new Error(error)
+          throw new Error(`${response.statusCode} A server has occurred.`)
         }
       } catch (error) {
         console.error('requestPublicServer', error)
