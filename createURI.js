@@ -27,7 +27,9 @@ const qs = require('querystring')
 // air API의 requset parameter로 변환하여 반환한다.
 const nameConverter = (adaptorJSON, parentCd) => qs.escape(adaptorJSON[parentCd].AIR_KO_NM)
 
-const SERVICE_KEY = process.env.AIR_SERVICEKEY
+//const SERVICE_KEY = process.env.AIR_SERVICEKEY
+const SERVICE_KEY = "rbC3gaxXpV4tfvpDb8m%2FgJgLjlZvkbzLEabqd1NXwhiTY7xNguoEy7hEqwKWHapnmPQcIkjvTLrvUF7ULRrh3A%3D%3D";
+
 const OPENAPI_URI = 'http://openapi.airkorea.or.kr/openapi/services'
 const pageNo = 1
 const Rows = 100
