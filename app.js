@@ -71,9 +71,11 @@ app.get('/emd', ({ query: { parentCd = 2, zoomLevel = countryLevel } }, res) => 
     .catch((e) => console.error(e))
 })
 
+app.use('/', express.static(__dirname + '/public'));
+app.use('/static', express.static(__dirname + '/public/static'));
+
 app.listen(port, function () {
   console.log('Node Server is Run  listening on port ' + port + '!')
 })
-
 
 module.exports = app;
