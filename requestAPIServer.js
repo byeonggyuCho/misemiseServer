@@ -1,9 +1,20 @@
 const request = require('request')
 const qs = require('querystring')
-const {getJSON} =  require('./util/common.js')
+//const {getJSON} =  require('./util/common.js')
+
+const fs = require('fs')
+const path = require('path')
 
 const { getAirKoreaUrl, getSearchTMOperationURL, getSearchNearStationURL } = require('./createURI')
-const adaptorJSON = getJSON('adaptor.json');
+
+
+
+const adaptorStr = fs.readFileSync(path.join(__dirname, 'util/adaptor.json'));
+//const adaptorJSON = getJSON('adaptor.json');
+const adaptorJSON = JSON.parse(adaptorStr);
+
+
+const configStr = fs.readFileSync(path.join(__dirname, 'util/config.json'));
 const {
    airLevel, 
     zoomRange, 
@@ -12,7 +23,8 @@ const {
             sigLevel,
             emdLevel 
     }
-  } = getJSON('config.json');
+  }  = JSON.parse(configStr);
+  //= getJSON('config.json');
 
 const promiseFactory = (fn) =>
   new Promise((resolve, reject) => {

@@ -1,14 +1,25 @@
 require('dotenv').config()
 
-const {getJSON} = require('./util/common.js')
-const adaptorJSON = getJSON("adaptor.json")
+//const {getJSON} = require('./util/common.js')
+
+const fs = require('fs')
+const path = require('path')
+
+let adaptorStr = fs.readFileSync(path.join(__dirname, 'util/adaptor.json'))
+
+
+// const adaptorJSON = getJSON("adaptor.json")
+const adaptorJSON = JSON.parse(adaptorStr);
+
+const configStr = fs.readFileSync(path.join(__dirname, 'util/config.json'));
+
 const {
   zoomLevel: {
           countryLevel,
           sigLevel,
           emdLevel 
   }
-} = getJSON('config.json');
+} = JSON.parse(configStr);
 
 
 const qs = require('querystring')

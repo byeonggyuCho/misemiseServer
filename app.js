@@ -1,7 +1,7 @@
 require('dotenv').config()
 
 const express = require('express')
-const {getJSON} =  require('./util/common.js')
+//const {getJSON} =  require('./util/common.js')
 const app = express()
 const { cors } = require('./cors-middleware')
 const {
@@ -10,19 +10,27 @@ const {
   requestPublicServer,
   getEMDDate
 } = require('./requestAPIServer')
+
+const fs = require('fs')
+const path = require('path')
+
+const configStr = fs.readFileSync(path.join(__dirname, 'util/config.json'))
+
 const  {
   zoomLevel: {
           countryLevel,
           sigLevel,
           emdLevel 
   }
-} = getJSON('config.json');
+} = JSON.parse(configStr);
+
+//= getJSON('config.json');
 
 const port = process.env.PORT
 
 // CORS 허용 미들웨어
 app.all('/*', cors)
-const getGeoData = (zoomLevel = 2, parentCd) => require(`./geoJSON/${zoomLevel === countryLevel ? '1.json' : `${parentCd}.json`}`)
+const getGeoData = (zoomLevel = countryLevel, parentCd) => require(`./geoJSON/${zoomLevel === countryLevel ? '1.json' : `${parentCd}.json`}`)
 
 
 /**
